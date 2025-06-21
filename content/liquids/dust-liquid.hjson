@@ -1,0 +1,5 @@
+name: Dust
+boilPoint: 0.1
+color: f0dec8
+heatCapacity: 0.3
+research: dust-extractor
