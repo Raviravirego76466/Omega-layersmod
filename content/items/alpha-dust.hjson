@@ -1,0 +1,7 @@
+name: Alpha Dust
+description: A highly flammable and slightly explosive.
+explosiveness: 0.5
+flammability: 2
+charge: 0.3
+color: 808080
+research: 01a-01-item-alpha

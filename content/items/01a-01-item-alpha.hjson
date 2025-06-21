@@ -1,0 +1,12 @@
+name: Alpha
+description: "Used in basic building."
+hardness: 0
+cost: 0.5
+alwaysUnlocked: true
+color: 808080
+research: {
+  planet: alpha-planet
+  root: true
+  name: Omega Layers
+  requiresUnlock: false
+}
