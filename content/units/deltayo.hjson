@@ -1,0 +1,62 @@
+type: legs
+legCount: 4
+legLength: 8
+legSpeed: 0.23
+legForwardScl: 0.56
+legMoveSpace: 0.9
+hovering: true
+groundLayer: 60
+name: Deltayo
+description: Builds structures and mines ores with one weapon.
+health: 135
+armor: 1
+mineFloor: true
+mineWalls: true
+speed: 1.38
+hitSize: 6
+isEnemy: false
+mineSpeed: 3.5
+mineTier: 1
+buildSpeed: 0.7
+drag: 0.4
+itemCapacity: 20
+alwaysUnlocked: true
+outlineColor: 42413e
+abilities: [
+  {
+    type: ShieldRegenFieldAbility
+    reload: 240
+    range: 80
+    amount: 4
+    max: 16
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 0
+    mirror: false
+    name: deltayo-w
+    continuous: true
+    alwaysContinuous: true
+    ejectEffect: none
+    shootSound: none
+    shootSound: none
+    shootY: 1
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 80
+      width: 1
+      colors: [74A659, 74A659, 74A659, 74A659, ffffff]
+      drawFlare: false
+      damageInterval: 15
+      damage: 14
+      buildingDamageMultiplier: 0.01
+      pierceArmor: false
+      pierceCap: 1
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
+]
+research: 01a-04-item-delta
