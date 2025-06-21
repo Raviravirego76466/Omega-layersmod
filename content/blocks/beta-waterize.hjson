@@ -2,15 +2,7 @@ type: GenericCrafter
 name: Beta Waterrize
 size: 3
 category: crafting
-research: {
-  parent: alpha-forge
-  objectives: [
-    {
-      type: OnSector
-      preset: beta-sector-2
-    }
-  ]
-}
+research: alpha-forge
 itemCapacity: 40
 researchCostMultiplier: 0.5
 requirements: [
