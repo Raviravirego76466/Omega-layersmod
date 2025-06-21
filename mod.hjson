@@ -3,5 +3,5 @@ displayName: OMEGA LAYERS
 author: Omega Layers Mod Team
 description: This is a useless description.
 version: "1.0.0"
-minGameVersion: "149"
+minGameVersion: "146"
 dependencies: [ ]
