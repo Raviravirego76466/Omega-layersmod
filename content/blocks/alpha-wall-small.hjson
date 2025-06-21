@@ -1,0 +1,12 @@
+type: Wall
+name: Alpha Wall (Defense)
+description: Protects structures from incoming damage.
+size: 1
+health: 380
+squareSprite: false
+requirements: [
+  01a-01-item-alpha/6
+]
+research: 01a-01-item-alpha
+category: defense
+researchCostMultiplier: 0.05

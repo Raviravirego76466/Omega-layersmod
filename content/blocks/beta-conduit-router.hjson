@@ -1,0 +1,14 @@
+type: LiquidRouter
+name: Beta Conduit Router
+size: 1
+solid: false
+underBullets: true
+health: 65
+liquidPadding: 2
+liquidCapacity: 30
+category: liquid
+squareSprite: false
+research: beta-conduit
+requirements: [
+  beta/4
+]

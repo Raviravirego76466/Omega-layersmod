@@ -1,0 +1,26 @@
+type: UnitAssembler
+name: Alpha Assembly Bay
+description: Creates Leg units using payloads. Requires power.
+size: 5
+category: units
+droneType: alpha-drone
+research: 01a-01-item-alpha
+requirements: [
+  01a-01-item-alpha/100
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: alphayo
+    requirements: [
+      alpha-wall-small/0
+    ]
+    time: 720
+  }
+]
+squareSprite: false
+consumes: {
+  power: 2
+}
+areaSize: 13
+researchCostMultiplier: 0.5

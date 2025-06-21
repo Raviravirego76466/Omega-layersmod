@@ -1,0 +1,15 @@
+type: BurstDrill
+name: Alpha Jet
+size: 4
+hardnessDrillMultiplier: 200
+category: production
+research: alpha-mining
+hasLiquids: true
+drillTime: 600
+tier: 2
+shake: 2
+squareSprite: false
+itemCapacity: 40
+requirements: [
+  01a-01-item-alpha/90
+]

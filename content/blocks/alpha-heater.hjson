@@ -1,0 +1,34 @@
+type: HeatProducer 
+name: Alpha Heater
+size: 1
+heatOutput: 1
+squareSprite: false
+craftEffect: smeltsmoke
+consumes: {
+  items: [
+    01a-01-item-alpha/2
+ ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -heat
+      blending: additive
+      color: d76a6a80
+    }
+  ]
+}
+craftTime: 90
+category: crafting
+research: 01a-01-item-alpha
+requirements: [
+  01a-01-item-alpha/40
+]
+ambientSound: grinding
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

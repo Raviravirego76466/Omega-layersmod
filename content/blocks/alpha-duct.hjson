@@ -1,0 +1,14 @@
+type: Duct
+name: Alpha Pipeline
+description: Transports items using negative pressure.
+category: distribution
+alwaysUnlocked: true
+research: 01a-01-item-alpha
+researchCost: [
+  01a-01-item-alpha/10
+]
+speed: 10
+health: 45
+requirements: [
+  01a-01-item-alpha/1
+]

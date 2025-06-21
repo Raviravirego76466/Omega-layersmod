@@ -1,0 +1,6 @@
+type: StaticWall
+name: Gamma Wall
+description: "Contains traces of Gamma which can be mined using specialized means."
+attributes: {
+  01a-03-item-gamma: 1
+}

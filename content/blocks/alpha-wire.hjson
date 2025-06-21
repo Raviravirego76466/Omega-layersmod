@@ -1,0 +1,21 @@
+type: ArmoredConveyor
+name: Alpha Wire
+description: Transfers power when placed next to more wires. Can store very small amounts of power.
+conductivePower: true
+health: 70
+hasPower: true
+outputsPower: true
+liquidPressure: 0
+liquidCapacity: 0
+consumes: {
+  powerBuffered: 5
+} 
+requirements: [
+  01a-01-item-alpha/2
+]
+category: power
+research: alpha-generator
+acceptsItems: false
+instantTransfer: false
+solid: false
+researchCostMultiplier: 0.5

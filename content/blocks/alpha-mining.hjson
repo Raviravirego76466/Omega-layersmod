@@ -1,0 +1,16 @@
+type: WallCrafter
+name: Alpha Mining Unit
+description: Mines alpha slowly from Alpha walls. Does not work on Aged Alpha walls. 
+size: 2
+category: production
+research: 01a-01-item-alpha
+requirements: [
+  01a-01-item-alpha/20
+]
+drillTime: 240
+output: 01a-01-item-alpha
+attribute: 01a-01-item-alpha
+ambientSound: drill
+ambientSoundVolume: 0.08
+alwaysUnlocked: true
+squareSprite: false

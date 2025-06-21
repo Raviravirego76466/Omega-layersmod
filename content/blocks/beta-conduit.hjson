@@ -1,0 +1,10 @@
+type: Conduit
+name: Beta Conduit
+category: liquid
+requirements: [
+  beta/2
+]
+health: 65
+underBullets: true
+solid: false
+research: 01a-01-item-alpha

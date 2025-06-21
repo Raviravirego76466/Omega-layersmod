@@ -1,0 +1,50 @@
+type: HeatCrafter
+name: Prestige III
+description: Prestige to Go Delta.
+size: 5
+heatRequirement: 1
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  01a-04-item-delta/1
+]
+consumes: {
+  power: 1
+  items: [
+    01a-03-item-gamma/10
+  ]
+  liquids: [
+    vegatle-oil/1
+  ]
+}
+craftTime: 90
+category: crafting
+research: 01a-03-item-gamma
+requirements: [
+  01a-03-item-gamma/100
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: vegatle-oil
+      padding: 0
+      padLeft: -1.0
+      padRight: -1.0
+      padTop: -1.0
+      padBottom: -1.0
+      alpha: 1.0
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: grinding
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

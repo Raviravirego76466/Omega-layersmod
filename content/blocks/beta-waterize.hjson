@@ -1,0 +1,46 @@
+type: GenericCrafter
+name: Beta Waterrize
+size: 3
+category: crafting
+research: {
+  parent: alpha-forge
+  objectives: [
+    {
+      type: OnSector
+      preset: beta-sector-2
+    }
+  ]
+}
+itemCapacity: 40
+researchCostMultiplier: 0.5
+requirements: [
+  beta/10
+]
+craftTime: 60
+craftEffect: none
+outputItems: [
+ beta-dust/1
+]
+consumes: {
+  items: [
+    beta/2
+  ]
+  liquid: water/0.1
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      alpha: 0.65
+      padding: 2.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: grinding
+ambientSoundVolume: 0.08
+squareSprite: false

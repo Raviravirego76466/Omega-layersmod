@@ -1,0 +1,26 @@
+type: HeatCrafter
+name: Heat Waterize
+description: heat to water.
+size: 3
+research: {
+  parent: alpha-forge
+  objectives: [
+    {
+      type: OnSector
+      preset: beta-sector-2
+    }
+  ]
+}
+heatRequirement: 1
+squareSprite: false
+craftEffect: smeltsmoke
+outputLiquid: water/0.1
+craftTime: 90
+category: crafting
+research: 01a-01-item-alpha
+requirements: [
+  01a-01-item-alpha/10
+]
+ambientSound: grinding
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

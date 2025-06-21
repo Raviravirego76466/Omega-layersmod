@@ -1,0 +1,40 @@
+type: AttributeCrafter
+name: Dust Extractor
+size: 2
+attribute: water
+baseEfficiency: 0
+minEfficiency: 1
+liquidCapacity: 60
+hasLiquids: true
+health: 450
+category: production
+research: alpha-mining
+itemCapacity: 10
+researchCostMultiplier: 0.5
+outputLiquid: dust-liquid/1
+requirements: [
+  beta/6
+]
+craftTime: 60
+craftEffect: none
+consumes: {
+  items: [
+    beta/1
+  ]
+  power: 0.5
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
+squareSprite: false

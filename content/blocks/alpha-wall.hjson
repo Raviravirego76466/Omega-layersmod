@@ -1,0 +1,6 @@
+type: StaticWall
+name: Alpha Wall
+description: "Contains traces of alpha which can be mined using specialized means."
+attributes: {
+  01a-01-item-alpha: 1
+}

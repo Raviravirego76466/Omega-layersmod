@@ -1,0 +1,25 @@
+type: HeatCrafter
+name: Prestige I
+description: Prestige to Go Beta.
+size: 3
+heatRequirement: 1
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  beta/1
+]
+consumes: {
+  power: 1
+  items: [
+    01a-01-item-alpha/10
+  ]
+}
+craftTime: 90
+category: crafting
+research: 01a-01-item-alpha
+requirements: [
+  01a-01-item-alpha/100
+]
+ambientSound: grinding
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

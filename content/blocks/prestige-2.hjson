@@ -1,0 +1,25 @@
+type: HeatCrafter
+name: Prestige II
+description: Prestige to Go Gamma.
+size: 4
+heatRequirement: 1
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  01a-03-item-gamma/1
+]
+consumes: {
+  power: 1
+  items: [
+    beta/10
+  ]
+}
+craftTime: 90
+category: crafting
+research: 01a-01-item-alpha
+requirements: [
+  01a-01-item-alpha/100
+]
+ambientSound: grinding
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

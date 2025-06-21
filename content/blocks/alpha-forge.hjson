@@ -1,0 +1,24 @@
+type: HeatCrafter
+name: Alpha Forge
+description: Mixes Alpha and Heat.
+size: 3
+heatRequirement: 1
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  alpha-dust/1
+]
+consumes: {
+  items: [
+    01a-01-item-alpha/1
+  ]
+}
+craftTime: 90
+category: crafting
+research: 01a-01-item-alpha
+requirements: [
+  01a-01-item-alpha/100
+]
+ambientSound: grinding
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

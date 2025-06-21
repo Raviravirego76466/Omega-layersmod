@@ -1,0 +1,74 @@
+type: ItemTurret
+name: Dupt
+size: 3
+squareSprite: false
+health: 1650
+shootSound: shootAltLong
+requirements: [
+  beta/125
+]
+research: 01a-01-item-alpha
+coolant: {
+  type: ConsumeLiquid
+  liquid: dust-liquid
+  amount: 0.25
+}
+category: turret
+recoil: 1.5
+outlineColor: 2C2A36
+targetAir: true
+targetGround: true
+rotateSpeed: 2.25
+reload: 70
+range: 140
+shootY: 1
+shoot: {
+  type: ShootSpread
+  shots: 5
+  spread: 16
+}
+ammoTypes: {
+  beta: {
+    type: BasicBulletType
+    sprite: orb_01
+    buildingDamageMultiplier: 0.25
+    hitColor: F6B08A
+    frontColor: F6B08A
+    backColor: F6B08A
+    damage: 45
+    width: 8
+    height: 14
+    hitSize: 6
+    speed: 5
+    lifetime: 30
+    homingPower: 0.05
+    trailColor: F6B08A
+    trailChance: -1
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 4
+    trailWidth: 0.5
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: dupt-
+    parts: [
+    {
+      type: RegionPart
+      suffix: -back
+      progress: recoil
+    }
+    {
+      type: RegionPart
+      suffix: -cannon
+      progress: recoil
+      moveX: 2
+      moveRot: -30
+      under: true
+      mirror: true
+      heatColor: 8DF9D1
+    }
+  ]
+}
