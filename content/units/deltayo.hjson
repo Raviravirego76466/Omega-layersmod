@@ -22,6 +22,22 @@ drag: 0.4
 itemCapacity: 20
 alwaysUnlocked: true
 outlineColor: 42413e
+parts: [
+{
+type: ShapePart
+radius: 1
+circle: true
+hollow: true
+color: ffe995
+rotateSpeed: 2.8
+x: 0
+y: 0
+mirror: true
+stroke: 0
+layer: 70
+strokeTo: 3
+layer: 110
+}]
 abilities: [
   {
     type: ShieldRegenFieldAbility
