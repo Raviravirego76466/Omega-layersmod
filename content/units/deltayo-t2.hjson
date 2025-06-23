@@ -1,0 +1,121 @@
+type: legs
+legCount: 4
+legLength: 8
+legSpeed: 0.23
+legForwardScl: 0.56
+legMoveSpace: 0.9
+hovering: true
+groundLayer: 60
+name: Deltayo Tier 2
+description: Builds structures and mines ores with one weapon and mirror weapon.
+health: 135
+armor: 1
+mineFloor: true
+mineWalls: true
+speed: 1.9
+hitSize: 6
+isEnemy: false
+mineSpeed: 3.5
+mineTier: 1
+buildSpeed: 0.7
+drag: 0.4
+itemCapacity: 20
+alwaysUnlocked: true
+outlineColor: 42413e
+parts: [
+{
+type: ShapePart
+radius: 5
+circle: true
+hollow: true
+color: ffe995
+rotateSpeed: 2.8
+x: 0
+y: 4
+mirror: true
+stroke: 0
+layer: 70
+strokeTo: 3
+layer: 110
+}
+{
+type: ShapePart
+radius: 3
+circle: false
+sides: 3
+hollow: true
+color: ffe995
+rotateSpeed: 2.8
+x: 0
+y: 4
+mirror: true
+stroke: 0
+strokeTo: 3
+layer: 70
+layer: 110
+}
+]
+abilities: [
+  {
+    type: ShieldRegenFieldAbility
+    reload: 240
+    range: 80
+    amount: 4
+    max: 16
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 0
+    mirror: false
+    name: deltayo-w
+    continuous: true
+    alwaysContinuous: true
+    ejectEffect: none
+    shootSound: none
+    shootSound: none
+    shootY: 1
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 80
+      width: 1
+      colors: [74A659, 74A659, 74A659, 74A659, ffffff]
+      drawFlare: false
+      damageInterval: 15
+      damage: 14
+      buildingDamageMultiplier: 0.01
+      pierceArmor: false
+      pierceCap: 1
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
+  {
+    x: 0
+    y: 2
+    mirror: true
+    name: deltayo-w
+    continuous: true
+    alwaysContinuous: true
+    ejectEffect: none
+    shootSound: none
+    shootSound: none
+    shootY: 1
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 80
+      width: 1
+      colors: [74A659, 74A659, 74A659, 74A659, ffffff]
+      drawFlare: false
+      damageInterval: 15
+      damage: 14
+      buildingDamageMultiplier: 0.01
+      pierceArmor: false
+      pierceCap: 1
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
+]
+research: 01a-04-item-delta
